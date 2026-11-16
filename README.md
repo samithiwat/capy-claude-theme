@@ -1,4 +1,4 @@
-# Hot Standby
+# Claude Capy
 
 A Claude Code desktop theme. Capy, a capybara SRE, is on call in an onsen hot tub under a noren curtain of cloud crests, and reacts to whatever Claude is doing.
 
@@ -30,16 +30,16 @@ A Claude Code desktop theme. Capy, a capybara SRE, is on call in an onsen hot tu
 At the prompt of a terminal session:
 
 ```
-/plugin install hot-standby --marketplace samithiwat/hot-standby
+/plugin install capy-claude-theme --marketplace samithiwat/capy-claude-theme
 ```
 
 From a shell:
 
 ```
-claude plugin install hot-standby --marketplace samithiwat/hot-standby
+claude plugin install capy-claude-theme --marketplace samithiwat/capy-claude-theme
 ```
 
-In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins, Add marketplace with `samithiwat/hot-standby`, then Add plugin.
+In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins, Add marketplace with `samithiwat/capy-claude-theme`, then Add plugin.
 
 The backdrop draws in the desktop and mobile apps; the terminal shows the status line only.
 

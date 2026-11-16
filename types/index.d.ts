@@ -4,6 +4,6 @@ export type Mood =
 
 declare module 'claude-code' {
   interface PluginState {
-    'hot-standby': { mood: Shaped<Mood> }
+    'capy-claude-theme': { mood: Shaped<Mood> }
   }
 }

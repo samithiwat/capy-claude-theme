@@ -1,1 +1,1 @@
-{ "name": "hot-standby", "version": "1.0.0", "description": "Hot Standby: a capybara SRE on call in an onsen hot tub, under a noren of cloud crests. Capy reacts to every prompt, tool call and turn.", "author": { "name": "samithiwat" }, "types": "./types/index.d.ts" }
+{ "name": "capy-claude-theme", "version": "1.1.0", "description": "Claude Capy: a capybara SRE on call in an onsen hot tub, under a noren of cloud crests. Capy reacts to every prompt, tool call and turn.", "author": { "name": "samithiwat" }, "types": "./types/index.d.ts" }

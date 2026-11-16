@@ -5,20 +5,20 @@ import type { Mood } from '../types'
 import { makeColors } from './make-colors.js'
 import { CAPY_SCENE } from './scene.js'
 
-// Graphite cutting mat: steel-grey by day, near-black at night, sticky-pink accent.
+// Onsen stone by day, graphite at night, sticky-pink accent.
 const { theme, problems } = makeColors({
-  label: 'Hot Standby',
+  label: 'Claude Capy',
   roles: { accent: '#ff7ab0', danger: '#ff6b5b', success: '#5ccf7f', warning: '#ffc53d', pro: '#a99cff' },
   light: {
     roles: { accent: '#b0336d', danger: '#c4392f', success: '#2a7a44', warning: '#9a6a00', pro: '#5a50b8' },
     gray: {
       anchors: {
-        'surface-0': '#eceeef',
-        'surface-1': '#f3f4f5',
-        'surface-2': '#fafbfb',
-        'text-primary': '#16191c',
-        'text-secondary': '#3b4148',
-        'text-muted': '#565d65',
+        'surface-0': '#ecebe8',
+        'surface-1': '#f3f2ef',
+        'surface-2': '#f9f9f7',
+        'text-primary': '#1e1d1a',
+        'text-secondary': '#45433d',
+        'text-muted': '#5c5952',
       },
     },
   },
@@ -83,7 +83,7 @@ const TOOL_MOODS: Record<string, Mood> = {
 const SLEEP_AFTER_MS = 10 * 60 * 1000
 
 // Change the tag if Mood changes: it declines what an earlier version stored.
-const mood = atom({ plugin: 'hot-standby', key: 'mood' } as const, 'idle' as Mood, { shape: 'mood-2' })
+const mood = atom({ plugin: 'capy-claude-theme', key: 'mood' } as const, 'idle' as Mood, { shape: 'mood-2' })
 
 let sleepTimer: Timer | undefined
 
