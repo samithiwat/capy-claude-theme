@@ -1,0 +1,6 @@
+{
+  "name": "hot-standby",
+  "description": "Hot Standby: a Claude Code desktop theme with a capybara SRE on call in an onsen hot tub.",
+  "owner": { "name": "samithiwat" },
+  "plugins": [{ "name": "hot-standby", "source": "./" }]
+}
